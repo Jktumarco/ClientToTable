@@ -24,15 +24,14 @@ public class TableController : MonoBehaviour
    
     void Start()
     {
-        SpawnTables();
-        
+        SpawnTables();  
     }
 
     public List<Table> findTables = new List<Table>();
     void SpawnTables()
     {
         var clPoint = ClientContrRef.clientToPoints;
-        if(clPoint == null) { Debug.Log("нету ничего в листе ");  }
+        if(clPoint == null) { Debug.Log("пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ ");  }
         else
         {
             
@@ -45,16 +44,7 @@ public class TableController : MonoBehaviour
                 table.pointTable = item;
                 table.transform.SetParent(item);
                 TablesList.Add(table);
-
-                
-                
-                
-
             }
-            
-            
-
-        }
-            
+        } 
     }
 }

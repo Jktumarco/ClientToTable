@@ -17,8 +17,6 @@ namespace TestPrototupe.Place
         private void Awake()
         {
             _tableBehavior = tableBehavior.IsFree;
-            
-            
         }
     }
 }
